@@ -1,0 +1,51 @@
+  th, td {
+    text-align: right;
+}
+tr {
+    text-align: center;
+}
+.input-small{
+    text-align:center;
+    height: 23px;
+    width: 75px !important;
+}
+.portlet-title{
+    cursor: pointer;
+}
+.disable{
+    cursor: not-allowed;      
+}
+.grey{
+    background: #CCC;  
+}
+.grey_{
+    background: #F6F6F6;  
+}
+.front_end{
+    width: 55px !important; 
+    float: right !important;
+    /*left: 20px;*/
+}
+/* table tr:first-child > th:first-child {
+    width: 264px !Important;
+    display: block;
+}*/
+.modal-header {
+    cursor: move;
+}
+
+.resourceCheckbox{
+    float: right;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #000;
+    min-height: 100%
+}
+.modal-open .modal{
+    overflow: hidden !important;
+}
